@@ -4,11 +4,17 @@ Styling
 -right now just adding random bits of code I like
 ==================================== */
 
+h1 {
+    padding: 0 .5em;
+    color: #fff;
+    font-size: 3em;
+}
 
 .main-header {
 	background: #3acec2;
 	padding: .001em;
 }
+
 
 
 .main-nav {
@@ -20,17 +26,22 @@ Styling
 a {
 	color: #3acec2;
 	text-align: center;
-	text-transform: uppercase;
 	text-decoration: none;
+    font-size: 2em;
 	display: block;
-	padding: 10px 15px;
+	padding: 10px 5px;
 }
 
 
 .main-nav li {
-	background: #fff;
-	border: solid 1px #093a58;
+	background: lavenderblush;
+	border: solid 1px pink;
 }
+
+body {
+    background: lavenderblush;
+}
+
 
 /* ================================= 
   Positioning

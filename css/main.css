@@ -1,0 +1,42 @@
+/* ================================= 
+Styling 
+-need to change settings in the code snippets 
+-right now just adding random bits of code I like
+==================================== */
+
+
+.main-header {
+	background: #3acec2;
+	padding: .001em;
+}
+
+
+.main-nav {
+	width: 50%;
+	padding: 1.65em;
+	margin: 0 auto;
+}
+
+a {
+	color: #3acec2;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	padding: 10px 15px;
+}
+
+
+.main-nav li {
+	background: #fff;
+	border: solid 1px #093a58;
+}
+
+/* ================================= 
+  Positioning
+==================================== */
+
+.main-nav {
+	position: relative;
+	margin-top: 100px;
+}

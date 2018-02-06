@@ -15,10 +15,11 @@ Below info to be filled out when completed...
 Custom CSS Classes
 The class(es) I created are:
 
-1. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
+1. class name  .main-header 
+Changes background color and Adds padding to .main-header section 
 
-2.
+2. class name .main-nav
+Formats navigation links: text color, padding, case, etc
 
 Custom JavaScript Functions
 The javascript functions I created are:

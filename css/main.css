@@ -1,8 +1,11 @@
 /* ================================= 
 Styling 
--need to change settings in the code snippets 
--right now just adding random bits of code I like
 ==================================== */
+
+body {
+    background: coral;
+	}
+
 
 h1 {
     padding: 0 .5em;
@@ -13,10 +16,11 @@ h1 {
 .main-header {
 	background: #3acec2;
 	padding: .001em;
+
 }
 
 .main-nav {
-	margin: 1.25em;
+	margin: 1em;
 }
 
 
@@ -24,8 +28,7 @@ h1 {
 	background: lavenderblush;
 	border-radius: 50%;
 	margin: 5px;
-	width: 150px;
-
+	width: 7em;
 }
 
 a {
@@ -38,12 +41,15 @@ a {
 	margin: 15px;
 }
 
-body {
-    background: coral;
-	}
 
 .main-content {
 	text-align: center;
+	margin: 0 1em;
+}
+
+#logo {
+	padding: 5px 5px 5px 25px;
+	background-color: #fff;
 }
 
 .main-footer {
@@ -55,15 +61,14 @@ body {
 }
 
 
-/* ================================= 
-  Positioning
-==================================== */
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
 
-
-.main-footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+.main-content {
+	flex: 1;
 }
 
 
@@ -76,16 +81,18 @@ body {
 @media (min-width: 769px) {
 
   .main-header, 
-  .main-nav {
+  .main-nav,
+  .main-content {
     display: flex;
   }
 
-  .main-header {
+  .main-header, {
     flex-direction: column;
     align-items: center;
   }
-  
-  }
+
+}
+
 
 @media (min-width: 1025px) {
 

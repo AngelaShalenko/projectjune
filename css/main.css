@@ -27,7 +27,7 @@ h1 {
 	background: #fff;
 	border-radius: 50%;
 	margin: 5px;
-	width: 125px;
+	width: 7em;
 }
 
 a {
@@ -48,6 +48,8 @@ a {
 .affirmation {
 	display: none;
 }
+/*Hides affirmation pic when screen is small size. See media queries below that change this display setting to 
+show the pic at larger screen sizes*/
 
 #logo {
 	padding: 15px 25px 25px 29px;
@@ -56,13 +58,15 @@ a {
 	width: 180px;
 	margin: 10px;
 }
+/*formats the logo area to make the pic appear to have more white space around the black parts
+and give the logo area rounded edges*/
+
 
 .main-footer {
 	background: #3acec2;
 	color: white;
 	text-align: center;
 	padding: 20px;
-
 }
 
 
@@ -71,10 +75,13 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 }
+/*Helps the footer stick to bottom*/
+
 
 .main-content {
 	flex: 1;
 }
+/*Helps the footer stick to bottom*/
 
 
 

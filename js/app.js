@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
-// $('affirmation').hide();
+ $("#bio").hide();
 
-// $('affirmation')fadeIn(3000);
-
-
+$("button").click(function(){
+    $("#bio").toggle();
+});
 
 
 

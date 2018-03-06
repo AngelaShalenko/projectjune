@@ -22,7 +22,6 @@ body {
 .main-nav li {
 	background: #fff;
 	border-radius: 50%;
-	/*margin: 5px auto 5px auto;*/
 	margin: 5px 5px 5px 40px;
 	width: 7em;
 }
@@ -52,12 +51,20 @@ h1 {
 	margin: 1%;
 }
 
+button {
+	background: #fff;
+	border-radius: 40px 10px;
+	border: none;
+	display: block;
+	padding: 15px 15px;
+	margin: 15px auto;
+}
 
 
-.affirmation {
+ #breathe, #waves {
 	display: none;
 }
-/*Hides affirmation pic when screen is small size. See media queries below that change this display setting to 
+/*Hides pics when screen is small size. See media queries below that change this display setting to 
 show the pic at larger screen sizes*/
 
 #logo {
@@ -121,7 +128,8 @@ body {
 	border-radius: 40px 10px;
   }
 
-  .affirmation {
+  #breathe,
+  #waves {
 	display: block;
 	width: 80%;
 	margin: auto;
@@ -133,8 +141,10 @@ body {
 
 @media (min-width: 1025px) {
 
-.affirmation {
+/*.affirmation {
 	width: 60%;
-}    /*Keep the pic from getting too large on large screens*/
+}    */
+
+/*Keep the pic from getting too large on large screens*/
 
 }

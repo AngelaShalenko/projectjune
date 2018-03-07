@@ -15,9 +15,7 @@ body {
 	border-radius: 50px;
 	width: 180px;
 	margin: 10px;
-}
-/*formats the logo area to make the pic appear to have more white space around the black parts
-and give the logo area rounded edges*/
+}  /*formats the logo area to make the pic appear to have more white space around the black parts and give the logo area rounded edges*/
 
 .main-header {
 	background: #3acec2;
@@ -70,19 +68,16 @@ button {
 	margin: 15px auto;
 }
 
-
  #breathe, #waves {
 	display: none;
-}
-/*Hides pics when screen is small size. See media queries below that change this display setting to 
-show the pic at larger screen sizes*/
+}  /*Hides pics when screen is small size. See media queries below that change this display setting to show the pic at larger screen sizes*/
+
 
 #headshot {
 	width:200px;
 	height:300px;
 	padding-top: 1em;
 }
-
 
 
 .main-footer {
@@ -97,14 +92,12 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-}
-/*Helps the footer stick to bottom*/
+}  /*Helps the footer stick to bottom*/
 
 
 .main-content {
 	flex: 1;
-}
-/*Helps the footer stick to bottom*/
+}  /*Helps the footer stick to bottom*/
 
 
 
@@ -115,69 +108,66 @@ body {
 
 @media (min-width: 769px) {
 
-  .main-header, 
-  .main-nav,
-  .main-content  {
-    display: flex;
-  }
+	.main-header, 
+	.main-nav,
+	.main-content  {
+		display: flex;
+	}
 
+	.main-nav li {
+		margin: 5px;
+	}
 
-  .main-nav li {
-	margin: 5px;
-  }
+	h1 {
+		font-size: 1.5em;
+	}
 
-  h1 {
-	font-size: 1.5em;
-  }
+	.content {
+		background-color: #3acec2;
+		border-radius: 40px 10px;
+	}
 
-  .content {
-	background-color: #3acec2;
-	border-radius: 40px 10px;
-  }
+	#breathe,
+	#waves {
+		display: block;
+		width:200px;
+		height:200px;
+		margin: auto;
+		padding: 1em .5em;
+	}  /*Make the pics appear when screen is large enough*/
 
-
-  #breathe,
-  #waves {
-	display: block;
-	width:200px;
-	height:200px;
-	margin: auto;
-	padding: 1em .5em;
-  }  /*Make the pics appear when screen is large enough*/
-
-  #headshot {
-	padding: 1em .5em;
-  }
-
+	#headshot {
+		padding: 1em .5em;
+	}
 }   /*end 769px media query*/
 
 
 @media (min-width: 1025px) {
 
-.main-content {
-	width: 80%;
-	margin: auto;
-}
+	.main-content {
+		width: 80%;
+		margin: auto;
+	}
 
-.main-nav li {
-	margin: 10px;
-	width: 10em;
-}
+	.main-nav li {
+		margin: 10px;
+		width: 10em;
+	}
 
-a {
-    font-size: 1.5em;
-	display: block;
-	padding: 20px 20px;
-}
+	a {
+		font-size: 1.5em;
+		display: block;
+		padding: 20px 20px;
+	}
 
- h1 {
-	font-size: 2em;
-  }
+	h1 {
+		font-size: 2em;
+	}
 
- #breathe,
- #waves {
-	width:275px;
-	height:275px;
+	#breathe,
+	#waves {
+		width:275px;
+		height:275px;
 
 }/*end 1025px media query*/
 

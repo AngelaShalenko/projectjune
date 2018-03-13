@@ -9,6 +9,11 @@ $("button").click(function(){
 //toggles bio content show/hide when button is clicked.
 
 
+$("a").click(function(){
+    // $("a.coral").removeClass(".coral")
+    // $(this).addClass(".coral");
+       $(this).addClass("visited");
+});
 
 
 });

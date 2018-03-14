@@ -44,49 +44,17 @@ a {
 }
 
 
-/*Trying to get my anchor elements in nav to be coral while visiting that page as suggested by mentor. I couldn't get it to work 
-using the methods in the example websites they provided. So I tried other methods.*/
-
-/* 1. tried adding custom class and js
-a.visited {
-	color:#f08080;
-}  */
-
-
- /*2. tried adding this custom class and js also
-.coral {
-    color: lightcoral;
-} */
-
-
-/*3. Tryed pseudo classes but when I use :visited the links stay that color (coral) even afer
-I clear my cache...they don't go back to the color set for anchor elements (aqua) like I thought they should. 
-However, the :hover class works fine (when hovering i get coral) and I like it. so decided to keep :hover.*/
-
-
-/*a:visited {
-	color: #f08080;
-}*/
-
+/*Making my anchor elements change color while visiting that page...as suggested by mentor. I couldn't get it to work using
+the methods in the examples they provided. So I tried many, many, many other methods until I found one that worked for me.*/
 a:hover{
 	text-decoration: none;
     color: #ffc0cb;
 }
 
-/*4. tried adding "selected" class 
-a:hover,
-a.selected {
-	text-decoration: none;
-    color: #f08080;
-}*/
-
-
-/*5. Fifth attempt: works great!*/
 .active {
 	color: #f08080;
 }
-
-/*end trying to get anchor elements to be coral while on page*/
+/*end anchor elements to change color while on page*/
 
 
 .main-content {

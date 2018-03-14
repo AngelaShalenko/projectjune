@@ -36,3 +36,12 @@ The javascript function(s) I created are:
 $("button").click(function(){
     $("#bio").toggle();
 });
+
+2. function is calling the href of active page and adding a class to it to apply styling
+$(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); 
+            }
+        });
+    });
